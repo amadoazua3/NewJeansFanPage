@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
-
+import newJeans from '../src/assets/newjeans_21.jpg'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    
+    <div>
+      <header>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          NewJeans Fanpage
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello World!
-        </a>
+        <p>
+          Members
+        </p>
+        <p>
+          Mascot
+        </p>
+        <p>
+          Discography
+        </p>
+
       </header>
+      <div>
+      <img src = {newJeans} />
+      </div>
     </div>
+
+
   );
 }
 
